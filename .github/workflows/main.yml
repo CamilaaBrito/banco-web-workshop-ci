@@ -23,7 +23,7 @@ jobs:
         run: npm run server &
 
       - name: Executando os testes do projeto
-        run: npm cypress run
+        run: npx cypress run
 
         
         
